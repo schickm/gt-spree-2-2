@@ -74,9 +74,8 @@ GIT
     spree_gateway (2.2.1)
       spree_core (~> 2.2.0)
 
-GIT
-  remote: https://github.com/GudTech/spree_retailops.git
-  revision: f52c6be0855e649f4f6513c3b7309f339958d467
+PATH
+  remote: /Users/matt/vc/spree_retailops
   specs:
     spree_retailops (2.2.1)
 
@@ -267,7 +266,7 @@ GEM
       activesupport (>= 3.2)
       railties (>= 3.2)
       tzinfo
-    warden (1.2.3)
+    warden (1.2.4)
       rack (>= 1.0)
 
 PLATFORMS

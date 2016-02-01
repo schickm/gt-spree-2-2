@@ -44,8 +44,9 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
 gem 'spree', github: 'spree/spree', branch: '2-2-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-2-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-2-stable'
 
-gem 'spree_retailops', git: 'https://github.com/GudTech/spree_retailops.git'
+gem 'spree_retailops', path: '/Users/matt/vc/spree_retailops' #git: 'https://github.com/GudTech/spree_retailops.git'
